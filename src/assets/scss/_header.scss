@@ -42,7 +42,7 @@
                 color: $text-color;
                 @include font(18, 700,1.2);
                 &:hover{
-                    opacity: 0.6;
+                    opacity: 0.5;
                 }
             }
         }
