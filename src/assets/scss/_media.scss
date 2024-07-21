@@ -1,4 +1,7 @@
 @media (max-width:420px) {
+    *{
+        overflow-x:hidden ;
+    }
     .nav{
         .container{
             display: flex;
