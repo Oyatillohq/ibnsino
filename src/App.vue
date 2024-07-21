@@ -19,6 +19,10 @@
     <router-view />
     <div class="footer">
       <div class="container">
+        <router-link to="/" class="logo">
+          <img src="./assets/img/svg.svg" alt="" class="logo-svg">
+          <h1 class="logo-title">Ibn Sino<span>Education</span></h1>
+        </router-link>
         <ul class="footer-list">
           <li class="footer-list__item"><a href="tel:+998948553366">Biz bilan bog'laning</a></li>
           <li class="footer-list__item"><a href="">Manzil</a></li>

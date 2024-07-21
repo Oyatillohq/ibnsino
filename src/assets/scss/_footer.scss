@@ -3,11 +3,41 @@
     height: 100%;
     scroll-behavior: smooth;
     background-color: $bg-color;
-    padding: 25px 100px;
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns:repeat(2 1fr);
     .container{
         display: flex;
         justify-content: space-between;
         
+    }
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    
+        img {
+            width: 60px;
+            height: 60px;
+            border: none;
+        }
+    
+        .logo-title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: center;
+            @include font(28, 900 ,1.2);
+            color: $white;
+    
+            span {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                @include font (22, 900,1.2)
+            }
+        }
     }
     &-list{
         display: grid;
