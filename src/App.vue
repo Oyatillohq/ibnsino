@@ -8,15 +8,16 @@
           <h1 class="logo-title">Ibn Sino<span>Education</span></h1>
         </router-link>
         <ul class="nav-list">
+          <li class="nav-list__item"><router-link to="/">Asosiy</router-link></li>
           <li class="nav-list__item"><a href="#">Biz haqimizda</a></li>
           <li class="nav-list__item"><a href="#">O'qituvchilar</a></li>
           <li class="nav-list__item"><a href="#">Yutuqlar</a></li>
           <li class="nav-list__item"><a href="tel:+998948553366">Biz bilan bog'laning</a></li>
-          <li class="nav-list__item"><a href="#">Manzil</a></li>
+          <li class="nav-list__item"><router-link to="/location">Manzil</router-link></li>
         </ul>
       </div>
     </div>
-    <router-view />
+    <router-view></router-view>
     <div class="footer">
       <div class="container">
         <router-link to="/" class="logo">
@@ -25,7 +26,7 @@
         </router-link>
         <ul class="footer-list">
           <li class="footer-list__item"><a href="tel:+998948553366">Biz bilan bog'laning</a></li>
-          <li class="footer-list__item"><a href="">Manzil</a></li>
+          <li class="footer-list__item"><router-link to="/location">Manzil</router-link></li>
           <li class="footer-list__item"><a href="">Biz haqimizda</a></li>
           <li class="footer-list__item"><a href="">O'qituvchilar</a></li>
           <li class="footer-list__item"><a href="">Yutuqlar</a></li>

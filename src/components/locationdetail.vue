@@ -33,7 +33,7 @@
         @include font(36, 800, 1.2);
         margin-bottom: 40px;
         text-align: center;
-        color: $text-color;
+        color: $bg-color;
     }
 
     .main {
@@ -59,6 +59,7 @@
     &__right {
         &-title {
             @include font(18, 600, 1.2);
+            color: $text-color;
         }
 
         &-img {
