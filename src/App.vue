@@ -7,14 +7,17 @@
           <img src="./assets/img/svg.svg" alt="" class="logo-svg">
           <h1 class="logo-title">Ibn Sino<span>Education</span></h1>
         </router-link>
-        <ul class="nav-list">
-          <li class="nav-list__item"><router-link to="/">Asosiy</router-link></li>
-          <li class="nav-list__item"><a href="#">Biz haqimizda</a></li>
-          <li class="nav-list__item"><a href="#">O'qituvchilar</a></li>
-          <li class="nav-list__item"><a href="#">Yutuqlar</a></li>
-          <li class="nav-list__item"><a href="tel:+998948553366">Biz bilan bog'laning</a></li>
-          <li class="nav-list__item"><router-link to="/location">Manzil</router-link></li>
-        </ul>
+        <img src="./assets/img/burger.svg" alt="" class="burger">
+        <div class="nav modal">
+          <ul class="nav-list">
+            <li class="nav-list__item"><router-link to="/">Asosiy</router-link></li>
+            <li class="nav-list__item"><a href="#">Biz haqimizda</a></li>
+            <li class="nav-list__item"><a href="#">O'qituvchilar</a></li>
+            <li class="nav-list__item"><a href="#">Yutuqlar</a></li>
+            <li class="nav-list__item"><a href="tel:+998948553366">Biz bilan bog'laning</a></li>
+            <li class="nav-list__item"><router-link to="/location">Manzil</router-link></li>
+          </ul>
+        </div>
       </div>
     </div>
     <router-view></router-view>
