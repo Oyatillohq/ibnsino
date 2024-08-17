@@ -27,13 +27,14 @@
 @import "../assets/scss/main.scss";
 
 .location {
+    width: 100%; 
+    height: 2500px;
     margin-bottom: 120px;
-
     &-header {
         @include font(36, 800, 1.2);
         margin-bottom: 40px;
         text-align: center;
-        color: $bg-color;
+        color: $text-color;
     }
 
     .main {
@@ -66,7 +67,7 @@
 
         &-img {
             margin-top: 30px;
-            width: 650px;
+            width: 600px;
             height: 450px;
             box-shadow: -5px -5px 10px #c9c9c9,5px 5px 10px #c9c9c9;
         }

@@ -3,7 +3,7 @@
     padding: 0 20px;
     width: 100%;
     max-width: 1440px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 * {
@@ -14,10 +14,14 @@
     text-decoration: none;
     font-family: "Jost";
 }
-.body{
+
+.body {
     width: 100%;
     height: 100%;
-    background-image: url(../img/background.png);
+}
+
+main {
+    background-image: url(../img/chemistry.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -110,12 +110,18 @@
 .body {
   width: 100%;
   height: 100%;
-  background-image: url(../img/background.png);
+}
+
+main {
+  background-image: url(../img/chemistry.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.nav {
+  background-color: #3f51b5;
+}
 .nav .container {
   display: flex;
   align-items: center;
@@ -126,10 +132,12 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 20px;
 }
 .nav .logo img {
+  box-shadow: 2px 2px 5px #fff;
   width: 60px;
-  height: 60px;
+  height: 59px;
   border: none;
 }
 .nav .logo .logo-title {
@@ -141,7 +149,7 @@
   font-size: 28px;
   font-weight: 900;
   line-height: 1.2;
-  color: #091b41;
+  color: #fff;
 }
 .nav .logo .logo-title span {
   display: flex;
@@ -156,9 +164,10 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 20px;
 }
 .nav .nav-list__item a {
-  color: #091b41;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
@@ -175,17 +184,17 @@
   display: flex;
   justify-content: center;
   border: none;
-  background-color: #060314;
 }
 .banner .banner-video {
-  width: 100%;
+  width: 870px;
+  background-size: cover;
 }
 
 .footer {
   width: 100%;
   height: 100%;
   scroll-behavior: smooth;
-  background-color: #060314;
+  background-color: #3f51b5;
   padding: 25px 0;
   display: grid;
   grid-template-columns: repeat(2 1fr);
