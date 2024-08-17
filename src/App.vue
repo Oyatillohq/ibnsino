@@ -1,5 +1,52 @@
 <template>
   <main>
+    <div class="antimation">
+      <div class="main">
+        <div class="up">
+          <div class="loaders">
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+          </div>
+          <div class="loadersB">
+            <div class="loaderA">
+              <div class="ball0"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball1"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball2"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball3"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball4"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball5"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball6"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball7"></div>
+            </div>
+            <div class="loaderA">
+              <div class="ball8"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="nav">
       <div class="container">
@@ -53,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="uzb">O'zbekiston Respublikasi 2024©</div>
+      <div class="uzb">O'zbekiston Respublikasi 2024 ©</div>
     </div>
 
   </main>

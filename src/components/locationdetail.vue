@@ -57,6 +57,8 @@
     }
 
     &__right {
+        display: flex;
+        flex-direction: column;
         &-title {
             @include font(18, 600, 1.2);
             color: $text-color;
